@@ -1,0 +1,19 @@
+.SearchBox {
+  margin-top: 25px;
+}
+
+.country {
+  margin-top: 20px;
+}
+.country-name {
+  margin-right: 20px;
+}
+
+.country-option {
+  padding-left: 20px;
+}
+
+.highlight {
+  background-color: red;
+  color: #fff;
+}
