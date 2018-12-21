@@ -1,41 +1,44 @@
-# react-flag-picker
-React Code Challenge: Flag Picker
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
-Challenge: 
+In the project directory, you can run:
 
-Build a generic search component using React JS that allows the user to pick different world flags based on the provided JSON file (attached to this email).
+### `npm start`
 
-Instructions: 
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-1. Build a generic search box React component that uses its children as the options
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-2. Filter these options based on the user's input (typeahead functionality)
+### `npm test`
 
-3. Use the continents as the options for the first search box. The options for this search box should be clickable and, when selecting an option, it should filter the second search box options
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-4. Use the countries as the options for the second search box. The options for this search box should be checkboxes that allow the user to select multiple countries
+### `npm run build`
 
-5. Display country flags based on the options selected in the second search box
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-5. Build Unit tests for your search box component 
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
-6. Feel free to style the page however you’d like, but the functionality should resemble the video as closely as possible
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Bonus: 
+### `npm run eject`
 
-1. Creativity with design and styling
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-2. Build navigation with the up and down keystrokes for the search box options and make them selectable with the Enter key
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Time limit for the challenge: 24 hours
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-Requirements: 
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-- Use Create React App https://github.com/facebookincubator/create-react-app
+## Learn More
 
-- Don’t use any additional libraries
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-- Only use the provided JSON file (as is) for the search boxes options 
-
-- Use the same component for both search boxes
+To learn React, check out the [React documentation](https://reactjs.org/).
